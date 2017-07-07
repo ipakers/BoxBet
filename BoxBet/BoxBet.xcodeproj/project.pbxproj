@@ -1,0 +1,334 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		74FAB9171E48406B00A8B7BE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74FAB9161E48406B00A8B7BE /* AppDelegate.swift */; };
+		74FAB9191E48406B00A8B7BE /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74FAB9181E48406B00A8B7BE /* SettingsViewController.swift */; };
+		74FAB91C1E48406B00A8B7BE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 74FAB91A1E48406B00A8B7BE /* Main.storyboard */; };
+		74FAB91E1E48406B00A8B7BE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 74FAB91D1E48406B00A8B7BE /* Assets.xcassets */; };
+		74FAB9211E48406B00A8B7BE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 74FAB91F1E48406B00A8B7BE /* LaunchScreen.storyboard */; };
+		74FAB92B1E484D3A00A8B7BE /* Dynamic.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74FAB92A1E484D3A00A8B7BE /* Dynamic.swift */; };
+		74FAB92D1E484D9A00A8B7BE /* BoxBetViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74FAB92C1E484D9A00A8B7BE /* BoxBetViewModel.swift */; };
+		74FAB92F1E484E2800A8B7BE /* BoxBet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74FAB92E1E484E2800A8B7BE /* BoxBet.swift */; };
+		74FAB9311E484E8600A8B7BE /* Player.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74FAB9301E484E8600A8B7BE /* Player.swift */; };
+		74FAB9331E4851EC00A8B7BE /* BoxBetTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74FAB9321E4851EC00A8B7BE /* BoxBetTabBarController.swift */; };
+		74FAB9351E485DB500A8B7BE /* PlayersTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74FAB9341E485DB500A8B7BE /* PlayersTableViewController.swift */; };
+		74FAB9371E4866E400A8B7BE /* AddPlayerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74FAB9361E4866E400A8B7BE /* AddPlayerViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		74FAB9131E48406B00A8B7BE /* BoxBet.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BoxBet.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		74FAB9161E48406B00A8B7BE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		74FAB9181E48406B00A8B7BE /* SettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
+		74FAB91B1E48406B00A8B7BE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		74FAB91D1E48406B00A8B7BE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		74FAB9201E48406B00A8B7BE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		74FAB9221E48406B00A8B7BE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		74FAB92A1E484D3A00A8B7BE /* Dynamic.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Dynamic.swift; sourceTree = "<group>"; };
+		74FAB92C1E484D9A00A8B7BE /* BoxBetViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BoxBetViewModel.swift; sourceTree = "<group>"; };
+		74FAB92E1E484E2800A8B7BE /* BoxBet.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BoxBet.swift; sourceTree = "<group>"; };
+		74FAB9301E484E8600A8B7BE /* Player.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Player.swift; sourceTree = "<group>"; };
+		74FAB9321E4851EC00A8B7BE /* BoxBetTabBarController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BoxBetTabBarController.swift; sourceTree = "<group>"; };
+		74FAB9341E485DB500A8B7BE /* PlayersTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlayersTableViewController.swift; sourceTree = "<group>"; };
+		74FAB9361E4866E400A8B7BE /* AddPlayerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddPlayerViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		74FAB9101E48406B00A8B7BE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		74FAB90A1E48406A00A8B7BE = {
+			isa = PBXGroup;
+			children = (
+				74FAB9151E48406B00A8B7BE /* BoxBet */,
+				74FAB9141E48406B00A8B7BE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		74FAB9141E48406B00A8B7BE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				74FAB9131E48406B00A8B7BE /* BoxBet.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		74FAB9151E48406B00A8B7BE /* BoxBet */ = {
+			isa = PBXGroup;
+			children = (
+				74FAB92A1E484D3A00A8B7BE /* Dynamic.swift */,
+				74FAB9161E48406B00A8B7BE /* AppDelegate.swift */,
+				74FAB9181E48406B00A8B7BE /* SettingsViewController.swift */,
+				74FAB91A1E48406B00A8B7BE /* Main.storyboard */,
+				74FAB91D1E48406B00A8B7BE /* Assets.xcassets */,
+				74FAB91F1E48406B00A8B7BE /* LaunchScreen.storyboard */,
+				74FAB9221E48406B00A8B7BE /* Info.plist */,
+				74FAB92C1E484D9A00A8B7BE /* BoxBetViewModel.swift */,
+				74FAB92E1E484E2800A8B7BE /* BoxBet.swift */,
+				74FAB9301E484E8600A8B7BE /* Player.swift */,
+				74FAB9321E4851EC00A8B7BE /* BoxBetTabBarController.swift */,
+				74FAB9341E485DB500A8B7BE /* PlayersTableViewController.swift */,
+				74FAB9361E4866E400A8B7BE /* AddPlayerViewController.swift */,
+			);
+			path = BoxBet;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		74FAB9121E48406B00A8B7BE /* BoxBet */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 74FAB9251E48406B00A8B7BE /* Build configuration list for PBXNativeTarget "BoxBet" */;
+			buildPhases = (
+				74FAB90F1E48406B00A8B7BE /* Sources */,
+				74FAB9101E48406B00A8B7BE /* Frameworks */,
+				74FAB9111E48406B00A8B7BE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BoxBet;
+			productName = BoxBet;
+			productReference = 74FAB9131E48406B00A8B7BE /* BoxBet.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		74FAB90B1E48406B00A8B7BE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "Isaac Perry";
+				TargetAttributes = {
+					74FAB9121E48406B00A8B7BE = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 74FAB90E1E48406B00A8B7BE /* Build configuration list for PBXProject "BoxBet" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 74FAB90A1E48406A00A8B7BE;
+			productRefGroup = 74FAB9141E48406B00A8B7BE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				74FAB9121E48406B00A8B7BE /* BoxBet */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		74FAB9111E48406B00A8B7BE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				74FAB9211E48406B00A8B7BE /* LaunchScreen.storyboard in Resources */,
+				74FAB91E1E48406B00A8B7BE /* Assets.xcassets in Resources */,
+				74FAB91C1E48406B00A8B7BE /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		74FAB90F1E48406B00A8B7BE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				74FAB92F1E484E2800A8B7BE /* BoxBet.swift in Sources */,
+				74FAB92D1E484D9A00A8B7BE /* BoxBetViewModel.swift in Sources */,
+				74FAB92B1E484D3A00A8B7BE /* Dynamic.swift in Sources */,
+				74FAB9351E485DB500A8B7BE /* PlayersTableViewController.swift in Sources */,
+				74FAB9371E4866E400A8B7BE /* AddPlayerViewController.swift in Sources */,
+				74FAB9191E48406B00A8B7BE /* SettingsViewController.swift in Sources */,
+				74FAB9311E484E8600A8B7BE /* Player.swift in Sources */,
+				74FAB9331E4851EC00A8B7BE /* BoxBetTabBarController.swift in Sources */,
+				74FAB9171E48406B00A8B7BE /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		74FAB91A1E48406B00A8B7BE /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				74FAB91B1E48406B00A8B7BE /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		74FAB91F1E48406B00A8B7BE /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				74FAB9201E48406B00A8B7BE /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		74FAB9231E48406B00A8B7BE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		74FAB9241E48406B00A8B7BE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		74FAB9261E48406B00A8B7BE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = BoxBet/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.comics.IsaacPerry.BoxBet;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		74FAB9271E48406B00A8B7BE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = BoxBet/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.comics.IsaacPerry.BoxBet;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		74FAB90E1E48406B00A8B7BE /* Build configuration list for PBXProject "BoxBet" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				74FAB9231E48406B00A8B7BE /* Debug */,
+				74FAB9241E48406B00A8B7BE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		74FAB9251E48406B00A8B7BE /* Build configuration list for PBXNativeTarget "BoxBet" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				74FAB9261E48406B00A8B7BE /* Debug */,
+				74FAB9271E48406B00A8B7BE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 74FAB90B1E48406B00A8B7BE /* Project object */;
+}
